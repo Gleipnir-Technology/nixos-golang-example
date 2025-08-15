@@ -29,3 +29,7 @@ The result will then be available in `result/bin/`
 ## Level 0
 
 A single input file
+
+## Level 1
+
+Multiple output binaries
