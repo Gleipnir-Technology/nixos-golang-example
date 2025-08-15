@@ -2,9 +2,11 @@
 
 A short example of building golang applications on NixOS
 
-## Basics
+This repository is broken into levels of complexity. Every level works the same way, but demonstrates increasingly complex situations
 
-To start hacking:
+## All Levels
+
+### Hacking
 
 ```shell
 $ nix-shell
@@ -16,10 +18,14 @@ To build within a nix-shell
 $ go build main.go
 ```
 
-To build for release
+### Releasing
 
 ```shell
 $ nix-build
 ```
 
-The result will then be available in `result/bin/nixos-golang-example`
+The result will then be available in `result/bin/`
+
+## Level 0
+
+A single input file
