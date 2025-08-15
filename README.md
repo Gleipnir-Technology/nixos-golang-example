@@ -15,3 +15,11 @@ To build within a nix-shell
 ```shell
 $ go build main.go
 ```
+
+To build for release
+
+```shell
+$ nix-build
+```
+
+The result will then be available in `result/bin/nixos-golang-example`
