@@ -32,4 +32,10 @@ A single input file
 
 ## Level 1
 
-Multiple output binaries
+Multiple output binaries. You can build the individual binaries with:
+
+```shell
+$ nix-shell
+$ go build ./cmd/a
+$ go build ./cmd/b
+```
