@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"my-project/shared"
+	"github.com/Gleipnir-Technology/level-1/shared"
 )
 
 func main() {
